@@ -1,52 +1,32 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club
+> Lending loans to ‘risky’ applicants is the largest source of financial loss(called credit loss). The credit loss is the amount of money lost by the lender 
+when the borrower refusesto pay or runs away with the money owed.  
 
-
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+The main objective of the case study is to be able to identify these risky loan applicants, then such loans can be reduced thereby cutting down the amount of credit loss.   
+Identification of such applicants using EDA to help the business to understand the driving factors behind the loan default i.e the variables which are strong indicators of default.  
+The company can utilize this knowledge for its portfolio and risk management
+
+## Steps followed
+Step 1: Data Cleaning  
+Step 2: Univariate Analysis\
+Step 3: Segemented Univariate Analysis\
+Step 4: Bivaraiate Analysis\
+Step 5: Results
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+⦁	Higher interest rate cause more default  
+⦁	Lesser the annual income more the default  
+⦁	Default is more from G credit grade  
+⦁	Loan taken for small business are defaulting more    
+⦁	As the range of dti increases default increases  
+⦁	Annual income of default group is less than the fully paid one  
+⦁	Interest rate increase with grade  
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
-
-## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+## Contributors
+Gyanesh Kamal  
+Vinutha V  
+Developed as part of the Exloratory Data Analysis Module required for Post Graduate Diploma in Machine Learning and AI - IIIT,Bangalore.
